@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Коледни подаръци</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+<!--BODY BGCOLOR ="#FFFFFF" TEXT="000001"
+font-family: Calibri, 'Comic Sans ms';
+font-size: 10px;
+border: solid 1px red;
+line-height: 130%;
+}>-->
+<style>body,footer{ background: #00FF00; }</style>
+<style>body{font-family: Comic Sans ms; </style>
+<h1 style="background-color: #FF0000" ><strong><b> СПЕЧЕЛЕТЕ КОЛЕДНА НАГРАДА!!!</b></strong></h1>
+<img src="https://www.pngkit.com/png/full/77-774010_christmas-gifts-png-christmas-present-png.png" width="250" height="300">
+<h1 style="color: blue;"><strong>ПОПЪЛНЕТЕ И СПЕЧЕЛЕТЕ СЕГА:</strong></h1>
+<form>
+<div><label for="Name">Вашето име:</label></div>
+<div><input type="text" name="Name" id="Name" size="30" maxlenght="35" /></div>
+<div> ...  </div>
+<div>   ...  </div>
+<div> ...  </div>
+
+<div>
+Притежавате:
+<input type="checkbox" id="device1" name="device1" value="Phone">
+<label for="device1"> Телефон</label><br>
+<input type="checkbox" id="device2" name="device2" value="Tablet">
+<label for="device2"> Таблет</label><br>
+<input type="checkbox" id="device3" name="device3" value="Laptop">
+<label for="device3"> Лаптоп</label></div>
+<div> ...  </div>
+<div>   ...  </div>
+<div>
+Искате да притежавате:
+<input type="radio" id="device1" name="device" value="Phone">
+<label for="divice1">  Телефон</label><br>
+<input type="radio" id="device2" name="device" value="Tablet">
+<label for="device2"> Таблет</label><br>
+<input type="radio" id="device3" name="device" value="Laptop">
+<label for="device3"> Лаптоп</label></div>
+<div> ...  </div>
+<div>   ...  </div>
+<div>Кой цвят продукт бихте искали да получите? <br />
+<select name="ChooseOne"
+<option value="Red"> червен</option>
+<option value="Blue"> син</option>
+<option value="Green"> зелен</option>
+<option value="Purple"> лилав</option>
+<option value="Black"> черен</option>
+<option value="White"> бял</option>
+<option value="Noone"> нито един от посочените</option>
+</select></div>
+<div> ...  </div>
+<div>   ...  </div>
+<div><label for="text1"> Вашият коментар:</label></div>
+<div>
+<textarea name="Comentar" id="text1" cols="40" rows="4">Моят коментар е
+</textarea></div>
+<div> ...  </div>
+<div>   ...  </div>
+<div><label for="pass"> Въведете код:</label>
+<input type="password" id="pass" name="parola"/></div>
+<div><input type="file" name="UploadFile" size="25" /></div>
+<div> ...  </div>
+<div>   ...  </div>
+<div><label for="pass"> Имейл за обратна връзка:</label>
+<input type="password" id="pass" name="parola"/></div>
+<div><input type="file" name="UploadFile" size="25" /></div>
+
+<div>-----------------</div>
+<div><input type="submit" value="submit" /></div>
+<div>Каталози на наличните:
+<a href="https://www.telenor.bg/bg/private/device/list/device_smart_phone">Телефони<a></div>
+<div><a href="https://www.telenor.bg/bg/private/device/list/device_tablet">Таблети и Телефони<a></div>
+<h3 style="color: green;"><i>ТРИМА ПОБЕДИТЕЛИ ЩЕ БЪДАТ ИЗТЕГЛНИ НА 20.12.2021!УСПЕХ!</i></h3>
+<div class="player box"><div class="songName"><b>Song:</b> <span class="songTitle">Wallows - OK (Official Lyric Video)(MP3_70K)_1
+</span><a href="https://myspace.windows93.net/u/31839/audio.mp3?v=1638785470" download="Wallows - OK (Official Lyric Video)(MP3_70K)_1.mp3"><img style="height: 15px; float: right; padding-right: 2px;" src="https://myspace.windows93.net/img/download.svg"></a></div><audio controls autoplay src="u/31839/audio.mp3?v=1638785470" controlsList="nodownload"></audio></div>	
+</form>
+</body>
+</html>
